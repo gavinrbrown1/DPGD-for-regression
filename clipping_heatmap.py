@@ -126,7 +126,7 @@ ax.yaxis.set_major_formatter(ticker.FormatStrFormatter('%.1f'))
 plt.xticks(range(len(ps))[::5], ps[::5])  # Set x-axis labels
 plt.yticks(range(len(gammas))[::2], ['{:.1f}'.format(tick) for tick in gammas[::-1]][::2])  # Set y-axis labels
 
-plt.text(5, 9.5, r'$f(x) \propto \sqrt{x}$', fontsize=12, color='red')
+plt.text(5, 9.5, r'$f(p) \propto \sqrt{p}$', fontsize=12, color='red')
 
 plt.colorbar(cax)
 plt.xlabel(r'dimension $p$')
